@@ -7,10 +7,10 @@ on:
 jobs:
   build:
     runs-on: macos-latest
-    steps:
+    step:
       - uses: actions/checkout@master
       - name: Publish to registry
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@v4
         with:
           registry: docker.pkg.github.com
           name: docker.pkg.github.com/DrHJekyll/top-api-nest/top-api-nest
