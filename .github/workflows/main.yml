@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     runs-on: macos-latest
-    step:
+    steps:
       - uses: actions/checkout@master
       - name: Publish to registry
         uses: elgohr/Publish-Docker-Github-Action@v4
