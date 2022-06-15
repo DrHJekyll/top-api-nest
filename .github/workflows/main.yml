@@ -15,6 +15,5 @@ jobs:
           registry: docker.pkg.github.com
           name: docker.pkg.github.com/DrHJekyll/top-api-nest/top-api
           username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
-          token: ${{ secrets.GHCR_TOKEN }}
+          token: ${{ secrets.DOCKER_PASSWORD }}
           tags: "develop"
