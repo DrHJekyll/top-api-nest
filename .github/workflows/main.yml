@@ -19,7 +19,7 @@ jobs:
           # tags: "develop"
           # uses: docker/login-action@v1
           # with:
-          registry: ghcr.io
+          # registry: ghcr.io
           name: Login to GitHub Package Registry
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GHCR_TOKEN }}
